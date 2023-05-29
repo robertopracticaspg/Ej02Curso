@@ -1,4 +1,3 @@
-<h4 align="center">
 
 # Ej01Equipo 
 
@@ -82,7 +81,7 @@ https://github.com/robertopracticaspg/Ej02Curso
 - Utiliza una herramienta para realizar solicitudes HTTP (por ejemplo, Postman) y prueba los diferentes endpoints disponibles.
   
   
-  ### Endpoints disponibles 
+  ## Endpoints disponibles 
   
 - GET /cursos: Devuelve todos los cursos disponibles. La respuesta se produce en formato JSON.
 - GET /cursos/{codCurso}: Busca un curso específico según el código del curso proporcionado. El código del curso se pasa como una variable en la URL. La respuesta se produce en formato JSON.
