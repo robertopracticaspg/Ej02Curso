@@ -36,10 +36,14 @@ Está creado en Elipse y la base de datos en MySQL.
 
   
   ## Ejemplo del código 
-
-![Ejemplo del código]()
   
+#### Clase Curso y CursosDao
   
+![Ejemplo del código](https://github.com/robertopracticaspg/Ej02Curso/blob/main/ejemplocodigo1.png)
+  
+ #### CursosService y CursosServiceImpl
+  
+ ![Ejemplo del código](https://github.com/robertopracticaspg/Ej02Curso/blob/main/ejemplocodigo2.png)
   
   ## Principales tecnologías y herramientas utilizadas en el proyecto
 
@@ -62,7 +66,7 @@ Está creado en Elipse y la base de datos en MySQL.
   
   ## Acceso al proyecto 
 
-https://github.com/robertopracticaspg/Ej01Equipo
+https://github.com/robertopracticaspg/Ej02Curso
   
   
  
@@ -81,32 +85,13 @@ https://github.com/robertopracticaspg/Ej01Equipo
   
   ### Endpoints disponibles 
   
-- GET /atleti: Retorna la lista de atletas en formato JSON.
-- GET /atleti/{numero}: Busca un atleta por su número y retorna los detalles del atleta encontrado.
-- POST /atleti: Crea un nuevo atleta utilizando los datos proporcionados en el cuerpo de la solicitud en formato JSON.
-- PUT /atleti: Actualiza un atleta existente utilizando los datos proporcionados en el cuerpo de la solicitud en formato JSON.
-- DELETE /atleti/{numero}: Elimina un atleta por su número.
+- GET /cursos: Devuelve todos los cursos disponibles. La respuesta se produce en formato JSON.
+- GET /cursos/{codCurso}: Busca un curso específico según el código del curso proporcionado. El código del curso se pasa como una variable en la URL. La respuesta se produce en formato JSON.
+- POST /cursos: Crea un nuevo curso. El cuerpo de la solicitud debe contener los datos del curso en formato JSON.
+- PUT /actualizar_curso/{codCurso}: Actualiza la duración de un curso existente. El código del curso se pasa como una variable en la URL, y la nueva duración se proporciona en el cuerpo de la solicitud en formato JSON.
+- DELETE /cursos/{codCurso}: Elimina un curso específico según el código del curso proporcionado. El código del curso se pasa como una variable en la URL. La respuesta se produce en formato JSON y devuelve una lista actualizada de cursos después de eliminar el curso especificado.
+- GET /cursos/precio/{precioMin}/{precioMax}: Busca y devuelve una lista de cursos que tienen un precio en el rango especificado. Los valores mínimo y máximo del precio se pasan como variables en la URL. La respuesta se produce en formato JSON.
 
- 
-  ### CREATE. "Fichar" un nuevo jugador con el número 12
-
-![Uso Postamn para crear un jugador](https://github.com/robertopracticaspg/Ej01Equipo/blob/main/Crearjugador.png)
-  
- 
-  ### READ. Ver el equipo completo
-  
-
-http://localhost:8080/atleti
-  
-
-  ### UPDATE. Actualizar jugador cambiando el número y la posicion
-
-![Uso Postamn para actualizar un jugador](https://github.com/robertopracticaspg/Ej01Equipo/blob/main/ActualizarJugador.png)
-  
-
-  ### DELETE. Borro el jugador numero 12
-
-![Uso Postamn para actualizar un jugador](https://github.com/robertopracticaspg/Ej01Equipo/blob/main/Borrarjugador.png)
 
   
   ## Enlace a la base de datos
