@@ -32,7 +32,6 @@ Es una aplicacion que consta de un CRUD y una base de datos externa.
 
 Está creado en Elipse y la base de datos en MySQL.
 
-![Ejemplo del código](https://github.com/robertopracticaspg/Ej02Curso/blob/main/Sin%20t%C3%ADtulo.png)
 
   
   ## Ejemplo del código 
@@ -96,7 +95,7 @@ https://github.com/robertopracticaspg/Ej02Curso
   
   ## Enlace a la base de datos
   
-https://github.com/robertopracticaspg/Ej01Equipo/blob/main/bdequipo.csv
+https://github.com/robertopracticaspg/Ej02Curso/blob/main/bdcurso2.csv
   
   
   
