@@ -17,7 +17,7 @@ public interface CursosDao extends JpaRepository<Curso, Integer> {
 	@Transactional
 	@Modifying
 	@Query("UPDATE Curso c SET c.duracion = :nuevaDuracion WHERE c.codCurso = :codCurso")
-	void actualizarDuracion(@Param("codCurso") int codCurso, @Param("nuevaDuracion") int nuevaDuracion);
+	void actualizarDuracion( int codCurso, int nuevaDuracion);
 
 	List<Curso> findByPrecioBetween(int precioMin, int precioMax);
 }
